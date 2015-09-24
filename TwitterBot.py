@@ -22,5 +22,5 @@ access_token_secret = os.environ["MTTB_ACCESS_TOKEN_SECRET"]
 
 api = TwitterAPI(consumer_key, consumer_secret, access_token_key, access_token_secret)
 
-r = api.request('statuses/update', {'status':'Tweeting from python!'})
-print(r.text)
+# r = api.request('statuses/update', {'status':'Tweeting from python!'})
+# print(r.text)
